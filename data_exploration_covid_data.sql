@@ -1,4 +1,8 @@
--- explore data
+/*
+Data Exploration in SQL (inspired by Alex the Analyst)
+*/
+
+-- take a look at the data
 SELECT *
 FROM PortfolioProject..CovidDeathsMod
 WHERE continent IS NOT NULL --continent not null implies that we select countries
