@@ -1,6 +1,6 @@
 /*
 
-Cleaning Data in SQL Queries (inspired by Alex the Analyst)
+Cleaning Data in SQL (inspired by Alex the Analyst)
 
 */
 
