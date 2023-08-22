@@ -173,7 +173,6 @@ ols_plot_cooksd_bar(resp.log.model) #25, 27, 35, 45, 46
 
 
 ##### EXCLUDE OUTLIERS #####
-# exclude  27
 outlier_leverage <- c(27)
 bodyfat_cleaned <- bodyfat[-outlier_leverage, ]
 cleaned_model <- lm(log(bodyfat_cleaned$DEXfat) ~ bodyfat_cleaned$age + bodyfat_cleaned$waistcirc + bodyfat_cleaned$hipcirc + bodyfat_cleaned$elbowbreadth + bodyfat_cleaned$kneebreadth + bodyfat_cleaned$anthro3a + bodyfat_cleaned$anthro3b + bodyfat_cleaned$anthro3c + bodyfat_cleaned$anthro4, data = bodyfat_cleaned)
